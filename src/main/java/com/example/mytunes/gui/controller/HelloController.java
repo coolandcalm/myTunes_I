@@ -1,12 +1,22 @@
 package com.example.mytunes.gui.controller;
 
+import com.example.mytunes.HelloApplication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
+import javafx.stage.Stage;
 
-public class HelloController {
+import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class HelloController implements Initializable
+{
     public Button playlistNewButton;
     public Button playlistEditButton;
     public Button playlistDeleteButton;
@@ -36,6 +46,16 @@ public class HelloController {
     public void songEditButtonAction(ActionEvent event) {
     }
     @FXML
-    public void songNewButtonAction(ActionEvent event) {
+    public void songNewButtonAction(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("new-song.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+        stage.setResizable(false);
+    }
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+
     }
 }
