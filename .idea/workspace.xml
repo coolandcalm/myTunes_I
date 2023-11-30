@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d148ae0-8511-4d21-a538-551a6a0a8fd8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/pause.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/mytunes/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mytunes/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/HelloApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -53,7 +50,6 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "/Users/andriisavchenko/Desktop/myTunes_I-master/src/main/resources/Images",
@@ -80,7 +76,6 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-
   <component name="RunManager">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.mytunes.HelloApplication" />
@@ -111,13 +106,11 @@
       <updated>1700768996675</updated>
       <workItem from="1700768997641" duration="53000" />
       <workItem from="1700776947097" duration="14000" />
-
       <workItem from="1701090256682" duration="2550000" />
       <workItem from="1701094183884" duration="9342000" />
       <workItem from="1701179032013" duration="1982000" />
       <workItem from="1701181021606" duration="14282000" />
       <workItem from="1701284762425" duration="6741000" />
-
     </task>
     <servers />
   </component>
