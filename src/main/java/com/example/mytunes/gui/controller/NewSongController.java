@@ -1,8 +1,12 @@
 package com.example.mytunes.gui.controller;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.Initializable;
 
-public class NewSongController {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class NewSongController implements Initializable {
     public void btnSaveAction(ActionEvent actionEvent) {
     }
 
@@ -13,5 +17,10 @@ public class NewSongController {
     }
 
     public void btnGenreMoreAction(ActionEvent actionEvent) {
+    }
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+
     }
 }

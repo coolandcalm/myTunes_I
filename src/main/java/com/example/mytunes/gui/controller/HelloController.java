@@ -34,16 +34,34 @@ public class HelloController implements Initializable
 
 
     @FXML
-    public void playlistNewButtonAction(ActionEvent event) {
+    public void playlistNewButtonAction(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("new-playlist.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+        stage.setResizable(false);
     }
     @FXML
-    public void playlistEditButtonAction(ActionEvent event) {
+    public void playlistEditButtonAction(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Playlist-edit.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+        stage.setResizable(false);
+
     }
     @FXML
     public void deleteButtonAction(ActionEvent event) {
     }
     @FXML
-    public void songEditButtonAction(ActionEvent event) {
+    public void songEditButtonAction(ActionEvent event) throws IOException {FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("AllSongs-edit.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+        stage.setResizable(false);
     }
     @FXML
     public void songNewButtonAction(ActionEvent event) throws IOException {
