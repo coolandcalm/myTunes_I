@@ -1,4 +1,4 @@
-package com.example.mytunes.businessEntities;
+package be;
 
 import java.util.Date;
 
