@@ -1,17 +1,15 @@
 package com.example.mytunes.businessEntities;
 
-import java.util.Date;
-
 public class Song
 {
     public String title;
     public String artist;
     public String category;
-    public Date time;
+    public String time;
 
     public String file;
 
-    public Song (String title,String artist,String category,Date time, String file)
+    public Song (String title, String artist, String category, String time, String file)
     {
         this.title = title;
         this.artist = artist;
@@ -32,7 +30,7 @@ public class Song
         return category;
     }
 
-    public Date getTime() {
+    public String getTime() {
         return time;
     }
 
@@ -52,11 +50,8 @@ public class Song
         this.category = category;
     }
 
-    public void setTime(Date time) {
+    public void setTime(String time) {
         this.time = time;
     }
 
-    public void setFile(String file) {
-        this.file = file;
-    }
 }
