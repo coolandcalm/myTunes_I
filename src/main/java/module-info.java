@@ -3,7 +3,7 @@ module com.example.mytunes {
     requires javafx.fxml;
     requires com.microsoft.sqlserver.jdbc;
     requires java.sql;
-
+    requires java.naming;
 
     opens com.example.mytunes to javafx.fxml;
     exports com.example.mytunes;
