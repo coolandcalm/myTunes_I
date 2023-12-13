@@ -15,7 +15,7 @@ public class DataBaseConnection {
         dataSource.setServerName("10.176.111.34");
         dataSource.setDatabaseName("mytunessam");
         dataSource.setUser("CSe2023b_e_25");
-        dataSource.setPassword("CSe2023bE25#23");
+        dataSource.setPassword("CSe2023bE25#23 ");
         dataSource.setTrustServerCertificate(true);
     }
 
