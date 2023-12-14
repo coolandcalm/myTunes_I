@@ -20,6 +20,7 @@ public class HelloController implements Initializable
     public Button playlistNewButton;
     public Button playlistEditButton;
     public Button playlistDeleteButton;
+
     public Button songsInPlaylistDeleteButton;
     public Button songsDeleteButton;
     public Button songEditButton;
@@ -29,6 +30,8 @@ public class HelloController implements Initializable
     public Label lblSongTimeSinceStart;
     public Label lblSongTimeSinceStart1;
     public Label currentSongsLabel;
+
+
     @FXML
     private Label welcomeText;
 
@@ -52,11 +55,20 @@ public class HelloController implements Initializable
         stage.setResizable(false);
 
     }
+
+
     @FXML
-    public void deleteButtonAction(ActionEvent event) {
+    public void deleteButtonAction(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("DeletePlaylist.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        Stage stage = new Stage();
+        stage.setScene(scene);
+        stage.show();
+        stage.setResizable(false);
     }
     @FXML
-    public void songEditButtonAction(ActionEvent event) throws IOException {FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("AllSongs-edit.fxml"));
+    public void songEditButtonAction(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("AllSongs-edit.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         Stage stage = new Stage();
         stage.setScene(scene);
