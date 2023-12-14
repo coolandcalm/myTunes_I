@@ -23,5 +23,8 @@ public class DeleteController implements Initializable{
     public void initialize(URL location, ResourceBundle resources) {
 
     }
+
+    public void cancelAction(ActionEvent event) {
+    }
 }
 

@@ -9,13 +9,14 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class HelloController implements Initializable
+public class MainController implements Initializable
 {
     public Button playlistNewButton;
     public Button playlistEditButton;
@@ -59,12 +60,18 @@ public class HelloController implements Initializable
 
     @FXML
     public void deleteButtonAction(ActionEvent event) throws IOException {
+
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("DeletePlaylist.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
+
+
         Stage stage = new Stage();
+        stage.setTitle("Delete");  
         stage.setScene(scene);
-        stage.show();
         stage.setResizable(false);
+        stage.initModality(Modality.APPLICATION_MODAL);
+        stage.show();
+
     }
     @FXML
     public void songEditButtonAction(ActionEvent event) throws IOException {
