@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d148ae0-8511-4d21-a538-551a6a0a8fd8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/Playlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myTunes_I" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/businessEntities/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/gui/controller/AllSongEditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/AllSongEditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/gui/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/gui/controller/NewPlayListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/NewPlayListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/gui/controller/NewSongController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/NewSongController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/gui/controller/PlayListEditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/PlayListEditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/mytunes/AllSongs-edit.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mytunes/AllSongs-edit.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/mytunes/Playlist-edit.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mytunes/Playlist-edit.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/mytunes/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mytunes/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/mytunes/new-playlist.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mytunes/new-playlist.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/mytunes/new-song.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mytunes/new-song.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +32,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="database" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -41,6 +63,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2YagEp53MkzPW7OZ7OSdXKumcPT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +75,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "songs",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "/Users/andriisavchenko/Desktop/myTunes_I-master/src/main/resources/Images",
     "node.js.detected.package.eslint": "true",
@@ -61,7 +86,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -78,11 +103,13 @@
   </component>
   <component name="RunManager">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.mytunes.HelloApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" value="liberica-21 (4)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="gui.HelloApplication" />
       <module name="MyTunes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.mytunes.*" />
+          <option name="PATTERN" value="com.example.mytunes.gui.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,6 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.HelloApplication" />
         <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
@@ -111,10 +140,27 @@
       <workItem from="1701179032013" duration="1982000" />
       <workItem from="1701181021606" duration="14282000" />
       <workItem from="1701284762425" duration="6741000" />
+      <workItem from="1702063672937" duration="5158000" />
+      <workItem from="1702293845458" duration="150000" />
+      <workItem from="1702294681337" duration="330000" />
+      <workItem from="1702295018107" duration="363000" />
+      <workItem from="1702295453087" duration="19000" />
+      <workItem from="1702299124286" duration="1677000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
