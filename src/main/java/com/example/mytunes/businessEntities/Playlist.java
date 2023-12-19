@@ -1,17 +1,35 @@
 package com.example.mytunes.businessEntities;
 
+import com.example.mytunes.businessEntities.Song;
+
+import java.util.ArrayList;
+
 public class Playlist {
     private int id;
     private String name;
     private int howManySongs;
     private String totalReproductionTime;
+    private ArrayList<Song> songs;
 
+    public Playlist(String name) {
+        this.name = name;
+    }
     public Playlist(int id, String name, int howManySongs, String totalReproductionTime) {
         this.id = id;
         this.name = name;
         this.howManySongs = howManySongs;
         this.totalReproductionTime = totalReproductionTime;
-}
+        this.songs = new ArrayList<Song>();
+    }
+
+    public ArrayList<Song> getSongs() {
+        return songs;
+    }
+
+    public void setSongs(ArrayList<Song> songs) {
+        this.songs = songs;
+    }
+
     public int getId() {
         return id;
     }
@@ -28,12 +46,8 @@ public class Playlist {
         this.name = name;
     }
 
-    public void setHowManySongs(int howManySongs) {
-        this.howManySongs = howManySongs;
-    }
-
     public int getHowManySongs() {
-        return howManySongs;
+        return this.songs.size();
     }
 
     public String getTotalReproductionTime() {

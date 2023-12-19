@@ -15,6 +15,11 @@ public class Song {
     private StringProperty filePath;
     private IntegerProperty songId;
 
+    public Song(int id, String name) {
+        this.songId = new SimpleIntegerProperty(id);
+        this.title = new SimpleStringProperty(name);
+    }
+
     public Song(String title, String artist, String genre, String time) {
         this.title = new SimpleStringProperty(title);
         this.artist = new SimpleStringProperty(artist);
