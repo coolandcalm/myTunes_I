@@ -1,4 +1,4 @@
-package com.example.mytunes.gui.controller;
+package com.example.mytunes.ui.controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;

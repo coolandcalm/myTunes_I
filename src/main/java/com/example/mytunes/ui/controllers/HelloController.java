@@ -1,6 +1,6 @@
-package com.example.mytunes.gui.controller;
+package com.example.mytunes.ui.controllers;
 
-import com.example.mytunes.HelloApplication;
+import com.example.mytunes.ui.HelloApplication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

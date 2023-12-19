@@ -1,4 +1,4 @@
-package com.example.mytunes.dal.dao;
+package com.example.mytunes.data.dao;
 
 public class DbDAOSongsInPlaylistManager {
 }

@@ -5,8 +5,8 @@ module com.example.mytunes {
     requires java.sql;
     requires java.naming;
 
-    opens com.example.mytunes to javafx.fxml;
-    exports com.example.mytunes;
-    exports com.example.mytunes.gui.controller;
-    opens com.example.mytunes.gui.controller to javafx.fxml;
+    opens com.example.mytunes.ui to javafx.fxml;
+    exports com.example.mytunes.ui;
+    opens com.example.mytunes.ui.controllers to javafx.fxml;
+    exports com.example.mytunes.ui.controllers;
 }
