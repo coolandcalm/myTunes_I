@@ -1,62 +1,104 @@
 package com.example.mytunes.core;
 
-import java.util.Date;
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 
-public class Song
-{
-    public String title;
-    public String artist;
-    public String category;
-    public Date time;
+public class Song {
 
-    public String file;
 
-    public Song (String title,String artist,String category,Date time, String file)
-    {
-        this.title = title;
-        this.artist = artist;
-        this.category = category;
-        this.time = time;
-        this.file = file;
+    private StringProperty title;
+    private StringProperty artist;
+    private StringProperty category;
+    private StringProperty time;
+    private StringProperty filePath;
+    private IntegerProperty songId;
+
+    public Song(int id, String name) {
+        this.songId = new SimpleIntegerProperty(id);
+        this.title = new SimpleStringProperty(name);
     }
 
-    public String getArtist() {
-        return artist;
+    public Song(String title, String artist, String genre, String time) {
+        this.title = new SimpleStringProperty(title);
+        this.artist = new SimpleStringProperty(artist);
+        this.category = new SimpleStringProperty(genre);
+        this.time = new SimpleStringProperty(time);
     }
 
-    public String getTitle() {
+    public Song(int songId, String title, String artist, String genre, String time, String filePath) {
+        this.songId = new SimpleIntegerProperty(songId);
+        this.title = new SimpleStringProperty(title);
+        this.artist = new SimpleStringProperty(artist);
+        this.category = new SimpleStringProperty(genre);
+        this.time = new SimpleStringProperty(time);
+        this.filePath = new SimpleStringProperty(filePath);
+    }
+
+    public Song(String title, String artist, String genre, String time, String filePath) {
+        this.title = new SimpleStringProperty(title);
+        this.artist = new SimpleStringProperty(artist);
+        this.category = new SimpleStringProperty(genre);
+        this.time = new SimpleStringProperty(time);
+        this.filePath = new SimpleStringProperty(filePath);
+    }
+
+    public Song(String title, String artist, String genre) {
+        this.title = new SimpleStringProperty(title);
+        this.artist = new SimpleStringProperty(artist);
+        this.category = new SimpleStringProperty(genre);
+    }
+
+    public IntegerProperty songIdProperty(){
+        return songId;
+    }
+    public StringProperty titleProperty() {
         return title;
     }
 
-    public String getCategory() {
+    public StringProperty artistProperty() {
+        return artist;
+    }
+
+    public StringProperty categoryProperty() {
         return category;
     }
 
-    public Date getTime() {
+    public StringProperty timeProperty() {
         return time;
     }
-
-    public String getFile() {
-        return file;
-    }
-
-    public void setArtist(String artist) {
-        this.artist = artist;
+    public StringProperty filePathProperty() {
+        return filePath;
     }
 
     public void setTitle(String title) {
-        this.title = title;
+        this.title.set(title);
     }
 
-    public void setCategory(String category) {
-        this.category = category;
+    public void setArtist(String artist) {
+        this.artist.set(artist);
     }
 
-    public void setTime(Date time) {
-        this.time = time;
+    public void setCategory(String genre) {
+        this.category.set(genre);
     }
 
-    public void setFile(String file) {
-        this.file = file;
+    public void setTime(String time) {
+        this.time.set(time);
+    }
+
+    public String getFilePath() {
+        return filePath.get();
+    }
+
+    @Override
+    public String toString() {
+        return "Song{" +
+                "title=" + title.get() +
+                ", artist=" + artist.get() +
+                ", category=" + category.get() +
+                ", time=" + time.get() +
+                '}';
     }
 }

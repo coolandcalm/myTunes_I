@@ -16,6 +16,7 @@ public class NewPlayListController implements Initializable {
 
     private TextField nameTextField;
 
+    private Button getCancelButton;
 
 
 
