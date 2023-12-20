@@ -5,22 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d148ae0-8511-4d21-a538-551a6a0a8fd8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_23,_18_26_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_23__18_26__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_23__18_26__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_7_23__18_26__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/ui/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/bll/MyTunesLogicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/ui/controllers/MyTunesLogicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/bll/MyTunesLogicFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/ui/controllers/MyTunesLogicFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/businessEntities/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/core/Playlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/businessEntities/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/core/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/dal/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/data/db/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/dal/TestingClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/dal/dao/DbDAOPlaylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/data/dao/DbDAOPlaylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/dal/dao/DbDAOSong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/data/dao/DbDAOSong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/dal/dao/DbDAOSongsInPlaylistManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/data/dao/DbDAOSongsInPlaylistManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/dal/interfaces/IPLaylistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/core/interfaces/IPLaylistRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/dal/interfaces/ISongRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/core/interfaces/ISongRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/dal/interfaces/ISongsInPlaylistManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/core/interfaces/ISongsInPlaylistManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/gui/controller/AllSongEditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/ui/controllers/AllSongEditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/gui/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/ui/controllers/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/gui/controller/NewPlayListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/ui/controllers/NewPlayListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/gui/controller/NewSongController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/ui/controllers/NewSongController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/gui/controller/PlayListEditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/ui/controllers/PlayListEditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/gui/controller/model/PlaylistModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/data/models/PlaylistModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/gui/controller/model/SPModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/data/models/SPModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/gui/controller/model/SongModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/data/models/SongModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Andrii" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -37,34 +72,63 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="openjdk-21" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2YagEp53MkzPW7OZ7OSdXKumcPT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/Users/andriisavchenko/Desktop/myTunes_I-master/src/main/resources/Images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DataBaseConnection.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path&quot;: &quot;/Users/andriisavchenko/Desktop/myTunes_I-master/&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JAR Application.mssql-jdbc-12.4.2.jre11.jar.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;MYT-24/Fix-project-spaghetti-code&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;liberica-21 (4)&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/andriisavchenko/Desktop/myTunes_I-master/src/main/resources/Images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.28142244&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TSQL&quot;,
+      &quot;MYSQL-SQL&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/Images" />
@@ -72,17 +136,27 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.mytunes.core" />
+      <recent name="com.example.mytunes.data.db" />
+      <recent name="com.example.mytunes.data.dao" />
+      <recent name="com.example.mytunes.data.models" />
+      <recent name="com.example.mytunes.ui.controllers" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.mytunes.HelloApplication" />
-      <module name="MyTunes" />
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mytunes.ui.HelloApplication" />
+      <module name="myTunes_I" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.mytunes.*" />
+          <option name="PATTERN" value="com.example.mytunes.ui.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,6 +166,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloApplication" />
         <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
@@ -111,6 +186,13 @@
       <workItem from="1701179032013" duration="1982000" />
       <workItem from="1701181021606" duration="14282000" />
       <workItem from="1701284762425" duration="6741000" />
+      <workItem from="1702475944083" duration="3286000" />
+      <workItem from="1702479779298" duration="3618000" />
+      <workItem from="1702483841729" duration="849000" />
+      <workItem from="1702485138715" duration="76000" />
+      <workItem from="1702485469588" duration="3840000" />
+      <workItem from="1702489582979" duration="4133000" />
+      <workItem from="1702493899745" duration="1899000" />
     </task>
     <servers />
   </component>

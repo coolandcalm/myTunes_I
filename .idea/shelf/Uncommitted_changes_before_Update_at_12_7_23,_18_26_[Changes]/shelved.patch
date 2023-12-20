@@ -1,0 +1,64 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"9d148ae0-8511-4d21-a538-551a6a0a8fd8\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/example/mytunes/HelloApplication.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/example/mytunes/HelloApplication.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"FxmlFile\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;andriiVIt&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">\n    <option name=\"selectedUrlAndAccountId\">\n      <UrlAndAccount>\n        <option name=\"accountId\" value=\"d70f0fbe-5a5a-4d6f-a185-cf8084037d40\" />\n        <option name=\"url\" value=\"https://github.com/coolandcalm/myTunes_I.git\" />\n      </UrlAndAccount>\n    </option>\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 1\n}</component>\n  <component name=\"ProjectId\" id=\"2YagEp53MkzPW7OZ7OSdXKumcPT\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"git-widget-placeholder\": \"main\",\n    \"ignore.virus.scanning.warn.message\": \"true\",\n    \"last_opened_file_path\": \"/Users/andriisavchenko/Desktop/myTunes_I-master/src/main/resources/Images\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.0\",\n    \"settings.editor.selected.configurable\": \"vcs.Git\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/main/resources/Images\" />\n      <recent name=\"$PROJECT_DIR$/target/classes/com\" />\n      <recent name=\"$PROJECT_DIR$/src/main/resources\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src\" />\n      <recent name=\"$PROJECT_DIR$/src/main/resources\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"HelloApplication\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.example.mytunes.HelloApplication\" />\n      <module name=\"MyTunes\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.example.mytunes.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.HelloApplication\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"9d148ae0-8511-4d21-a538-551a6a0a8fd8\" name=\"Changes\" comment=\"\" />\n      <created>1700768996675</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1700768996675</updated>\n      <workItem from=\"1700768997641\" duration=\"53000\" />\n      <workItem from=\"1700776947097\" duration=\"14000\" />\n      <workItem from=\"1701090256682\" duration=\"2550000\" />\n      <workItem from=\"1701094183884\" duration=\"9342000\" />\n      <workItem from=\"1701179032013\" duration=\"1982000\" />\n      <workItem from=\"1701181021606\" duration=\"14282000\" />\n      <workItem from=\"1701284762425\" duration=\"6741000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -6,7 +6,10 @@
+   <component name="ChangeListManager">
+     <list default="true" id="9d148ae0-8511-4d21-a538-551a6a0a8fd8" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/HelloApplication.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/myTunes.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mytunes/songController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mytunes/songController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/mytunes/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/mytunes/hello-view.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/mytunes/songView.fxml" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -50,7 +53,7 @@
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "WebServerToolWindowFactoryState": "false",
+-    "git-widget-placeholder": "main",
++    "git-widget-placeholder": "songs",
+     "ignore.virus.scanning.warn.message": "true",
+     "last_opened_file_path": "/Users/andriisavchenko/Desktop/myTunes_I-master/src/main/resources/Images",
+     "node.js.detected.package.eslint": "true",
+@@ -117,4 +120,15 @@
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
+ </project>
+\ No newline at end of file
+Index: src/main/java/com/example/mytunes/songController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.mytunes;\n\nimport javafx.event.ActionEvent;\nimport javafx.fxml.FXML;\nimport javafx.scene.control.Label;\n\npublic class songController {\n    @FXML\n    public Label songName;\n    @FXML\n    public Label artistName;\n    @FXML\n    public void addNewSong(ActionEvent actionEvent) {\n    }\n    @FXML\n    public void playCurrentSong(ActionEvent actionEvent) {\n    }\n    @FXML\n    public void stop(ActionEvent actionEvent) {\n    }\n    @FXML\n    public void playPreviousSong(ActionEvent actionEvent) {\n    }\n    @FXML\n    public void playNextSong(ActionEvent actionEvent) {\n    }\n    @FXML\n    public void addNewPlaylist(ActionEvent actionEvent) {\n    }\n    @FXML\n    public void switchToAllSongs(ActionEvent actionEvent) {\n    }\n}
+===================================================================
+diff --git a/src/main/java/com/example/mytunes/songController.java b/src/main/java/com/example/mytunes/songController.java
+--- a/src/main/java/com/example/mytunes/songController.java	
++++ b/src/main/java/com/example/mytunes/songController.java	
+@@ -4,6 +4,7 @@
+ import javafx.fxml.FXML;
+ import javafx.scene.control.Label;
+ 
++
+ public class songController {
+     @FXML
+     public Label songName;
